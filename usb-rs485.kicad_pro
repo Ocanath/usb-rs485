@@ -420,7 +420,8 @@
       "robot-cortex"
     ],
     "pinned_symbol_libs": [
-      "robot-cortex"
+      "robot-cortex",
+      "usb-rs485"
     ]
   },
   "meta": {
