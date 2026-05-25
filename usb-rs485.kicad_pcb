@@ -131,7 +131,7 @@
   (net 33 "/PSU_TPS63070RNMR/L2")
   (net 34 "/PSU_TPS63070RNMR/FB")
   (net 35 "Net-(U1-PG)")
-  (net 36 "/6V0")
+  (net 36 "/7V0")
 
   (footprint "usb-rs485:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 0a513291-5b6b-46b8-8695-204a9df82415)
@@ -503,7 +503,7 @@
     (fp_rect (start -2.902 -0.508) (end 2.902 2.694)
       (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 81426585-669f-4811-9028-d08a61cd03f3))
     (pad "1" smd roundrect (at -1.2 0 180) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 36 "/6V0") (pinfunction "1") (pintype "input") (thermal_bridge_angle 45) (tstamp ab3415e8-1fdc-4bb9-af7c-5f53c5b9e533))
+      (net 36 "/7V0") (pinfunction "1") (pintype "input") (thermal_bridge_angle 45) (tstamp ab3415e8-1fdc-4bb9-af7c-5f53c5b9e533))
     (pad "2" smd roundrect (at -0.4 0 180) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 17 "/RS485 Transceiver/RS1_A") (pinfunction "2") (pintype "input") (thermal_bridge_angle 45) (tstamp 6be649cf-31ea-4ee9-839c-7a4cdad3a34f))
     (pad "3" smd roundrect (at 0.4 0 180) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -1868,7 +1868,7 @@
     (fp_circle (center 6.35 0) (end 5.969 -0.635)
       (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 50c54c13-6035-4a40-97bc-37dfc5338303))
     (pad "1" thru_hole circle (at -3.81 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
-      (net 36 "/6V0") (pinfunction "1") (pintype "input") (tstamp 6f283469-f3a8-415f-bbdc-2586e8730ed3))
+      (net 36 "/7V0") (pinfunction "1") (pintype "input") (tstamp 6f283469-f3a8-415f-bbdc-2586e8730ed3))
     (pad "2" thru_hole circle (at -1.27 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 16 "/VUSB") (pinfunction "2") (pintype "input") (tstamp d59d6df8-0fb0-4ac6-a4f9-87c8fb3591c1))
     (pad "3" thru_hole circle (at 1.27 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
@@ -1916,7 +1916,7 @@
     (pad "6" smd roundrect (at -0.25 -1.4) (size 0.6 0.25) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "FB2") (pintype "input") (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp 57bba7da-6f12-4769-8390-f395d2e4c421))
     (pad "7,8" smd custom (at 0.25 -1.4) (size 0.25 0.25) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 36 "/6V0") (pinfunction "VOUT") (pintype "input") (solder_mask_margin 0.0508)
+      (net 36 "/7V0") (pinfunction "VOUT") (pintype "input") (solder_mask_margin 0.0508)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2102,7 +2102,7 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp da4fd084-a6ea-486a-a0e7-1aa20e2d757f))
     (pad "1" smd roundrect (at -0.75 0 270) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 36 "/6V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp c4756920-b7b7-438e-bbb9-9379e73c8c35))
+      (net 36 "/7V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp c4756920-b7b7-438e-bbb9-9379e73c8c35))
     (pad "2" smd roundrect (at 0.75 0 270) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (solder_mask_margin 0.0508) (tstamp 6592cd57-9218-4ab7-9ff3-322acc51cee4))
     (model "${KIPRJMOD}/3dModels/C_0603_1608Metric.step"
@@ -2127,7 +2127,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 99376605-6289-488a-a900-1e3da63b82de)
     )
-    (fp_text value "150k" (at 0 -1.17 90) (layer "B.Fab") hide
+    (fp_text value "47k" (at 0 -1.17 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 095f7ebe-c325-4fd2-aad3-4b97f09f42d5)
     )
@@ -2277,7 +2277,7 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp c036620d-b478-4f55-9f9c-6a78639e7455))
     (pad "1" smd roundrect (at -0.75 0 270) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 36 "/6V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp e65ed072-163d-4f47-b014-53de4f77f5fa))
+      (net 36 "/7V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp e65ed072-163d-4f47-b014-53de4f77f5fa))
     (pad "2" smd roundrect (at 0.75 0 270) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (solder_mask_margin 0.0508) (tstamp b63162ed-5a79-4bc0-a784-5bdce564e090))
     (model "${KIPRJMOD}/3dModels/C_0603_1608Metric.step"
@@ -2435,7 +2435,7 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp ba5e34a1-803b-4719-a4e4-b28043c59839))
     (pad "1" smd roundrect (at -0.75 0 90) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 36 "/6V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp f3c150ec-baef-4548-bb86-1919a9ff31f2))
+      (net 36 "/7V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp f3c150ec-baef-4548-bb86-1919a9ff31f2))
     (pad "2" smd roundrect (at 0.75 0 90) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (solder_mask_margin 0.0508) (tstamp 6dff6eb1-fbbf-4cb9-8bb4-bcbefaa312e7))
     (model "${KIPRJMOD}/3dModels/C_0603_1608Metric.step"
@@ -2493,7 +2493,7 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 66f6d8fc-35cf-45e2-b6fc-ce4b13fd520a))
     (pad "1" smd roundrect (at -0.75 0 90) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 36 "/6V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp eed296b6-7ccb-4ceb-83cf-f0be6f6e8e94))
+      (net 36 "/7V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp eed296b6-7ccb-4ceb-83cf-f0be6f6e8e94))
     (pad "2" smd roundrect (at 0.75 0 90) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (solder_mask_margin 0.0508) (tstamp 13c3a296-898c-4f40-8f27-578ea35d1307))
     (model "${KIPRJMOD}/3dModels/C_0603_1608Metric.step"
@@ -2541,7 +2541,7 @@
     (fp_line (start 0.5 0.25) (end 0.5 -0.25)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 4360684c-7515-4040-ba7d-a39d1333cf31))
     (pad "1" smd roundrect (at -0.4 0 180) (size 0.4 0.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.0625)
-      (net 36 "/6V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp f4eb441c-e7b2-441d-82c9-36b17b06f5a4))
+      (net 36 "/7V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp f4eb441c-e7b2-441d-82c9-36b17b06f5a4))
     (pad "2" smd roundrect (at 0.4 0 180) (size 0.4 0.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.0625)
       (net 35 "Net-(U1-PG)") (pintype "passive") (solder_mask_margin 0.0508) (tstamp ecb8da6a-cbfe-4f0b-bc1c-9c1ec8aea739))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
@@ -2566,7 +2566,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7ed35b7d-42b0-4dba-a3e9-a70decd6468e)
     )
-    (fp_text value "470k" (at 0 -1.17 90) (layer "B.Fab") hide
+    (fp_text value "365k" (at 0 -1.17 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 99277499-d28d-46e2-88ed-77e99a1c14ea)
     )
@@ -2599,7 +2599,7 @@
     (fp_line (start 0.525 0.27) (end 0.525 -0.27)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 3ca31e6f-29e9-48a7-9f8e-2fcf08915bd3))
     (pad "1" smd roundrect (at -0.375 0 270) (size 0.45 0.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 36 "/6V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp 6d755de3-8e42-43ed-9006-5785e32c9fc2))
+      (net 36 "/7V0") (pintype "passive") (solder_mask_margin 0.0508) (tstamp 6d755de3-8e42-43ed-9006-5785e32c9fc2))
     (pad "2" smd roundrect (at 0.375 0 270) (size 0.45 0.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 34 "/PSU_TPS63070RNMR/FB") (pintype "passive") (solder_mask_margin 0.0508) (tstamp 466f418c-ed82-4e3d-834d-1c2e31a025c7))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
@@ -11126,7 +11126,7 @@
       )
     )
   )
-  (zone (net 36) (net_name "/6V0") (layer "B.Cu") (tstamp e027310d-cde1-4ecc-8c60-a2249b5e852a) (hatch edge 0.5)
+  (zone (net 36) (net_name "/7V0") (layer "B.Cu") (tstamp e027310d-cde1-4ecc-8c60-a2249b5e852a) (hatch edge 0.5)
     (priority 2)
     (connect_pads yes (clearance 0.1))
     (min_thickness 0.1) (filled_areas_thickness no)
