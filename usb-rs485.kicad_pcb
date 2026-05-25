@@ -121,7 +121,7 @@
   (net 29 "unconnected-(U9-~{DSR}-Pad22)")
   (net 30 "unconnected-(U9-~{DCD}-Pad24)")
 
-  (footprint "robot-cortex:LED_0603_1608Metric" (layer "F.Cu")
+  (footprint "usb-rs485:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 0a513291-5b6b-46b8-8695-204a9df82415)
     (at 144.4225 106.895)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -174,7 +174,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 10e5bdee-30ac-41ae-84fb-6935b06c20a7)
     (at 139.15 99.39)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -233,7 +233,7 @@
     )
   )
 
-  (footprint "robot-cortex:QFN50P400X400X80-25N" (layer "F.Cu")
+  (footprint "usb-rs485:QFN50P400X400X80-25N" (layer "F.Cu")
     (tstamp 10f8c468-9291-4fd6-8c29-6cf0b3051c08)
     (at 143.11 103.27 -90)
     (property "A_MAX" "0.8")
@@ -420,7 +420,7 @@
     )
   )
 
-  (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 13869f6e-d293-4849-86c8-d6e034d59e62)
     (at 138.58 103.24 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -469,7 +469,7 @@
     )
   )
 
-  (footprint "robot-cortex:DF52-4S-0.8H(21)" (layer "F.Cu")
+  (footprint "usb-rs485:DF52-4S-0.8H(21)" (layer "F.Cu")
     (tstamp 1d1a73f3-e74c-4e00-90ea-47e3c34537cc)
     (at 143.11825 112.9465)
     (property "Sheetfile" "RS485-Transceiver.kicad_sch")
@@ -509,7 +509,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 256c4120-6873-43e9-8279-b2567f393d4b)
     (at 143.104971 111.7915)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -567,7 +567,7 @@
     )
   )
 
-  (footprint "robot-cortex:D_SOD-923" (layer "F.Cu")
+  (footprint "usb-rs485:D_SOD-923" (layer "F.Cu")
     (tstamp 322be619-6735-4703-9cbb-7545ca1c43f0)
     (at 143.89575 99.455 180)
     (descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
@@ -652,7 +652,7 @@
     )
   )
 
-  (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "usb-rs485:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 43beb0db-f914-4940-b3c6-f0259bb2538c)
     (at 146.16825 109.25 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -711,7 +711,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 490ea96a-008e-4730-9c44-c166a0f9f868)
     (at 148.67825 99.745 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -770,7 +770,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 5812a413-8fa1-46a5-8407-89bab100d617)
     (at 137.52 99.39)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -829,7 +829,7 @@
     )
   )
 
-  (footprint "robot-cortex:GCT_USB4110GFA" (layer "F.Cu")
+  (footprint "usb-rs485:GCT_USB4110GFA" (layer "F.Cu")
     (tstamp 62a56c18-f439-4bd9-a267-7df47bc8146b)
     (at 143.11825 97.0375 180)
     (property "Availability" "In Stock")
@@ -950,7 +950,7 @@
     )
   )
 
-  (footprint "robot-cortex:LED_0603_1608Metric" (layer "F.Cu")
+  (footprint "usb-rs485:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 6d9da962-ff45-4114-83ba-c12a277973cb)
     (at 140.835 106.895 180)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -1003,7 +1003,7 @@
     )
   )
 
-  (footprint "robot-cortex:ThruHoleBreadboardX4" (layer "F.Cu")
+  (footprint "usb-rs485:ThruHoleBreadboardX4" (layer "F.Cu")
     (tstamp 748ec80e-2f55-4eda-b07f-db3833ce99e9)
     (at 149.41825 107.99 90)
     (property "Sheetfile" "usb-rs485.kicad_sch")
@@ -1041,7 +1041,7 @@
       (net 2 "GND") (pinfunction "4") (pintype "input") (tstamp eee6dd95-f6c6-4e0a-98f8-96e6995a4d82))
   )
 
-  (footprint "robot-cortex:THVD2410VDRCR" (layer "F.Cu")
+  (footprint "usb-rs485:THVD2410VDRCR" (layer "F.Cu")
     (tstamp 7f2cffd9-6b69-46dc-8f02-dbee80fc5fb4)
     (at 142.868251 109.3915 -90)
     (property "Arrow Part Number" "")
@@ -1144,7 +1144,7 @@
     )
   )
 
-  (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 95d638b4-842a-436e-9add-907604b54558)
     (at 139.64 100.25 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1193,7 +1193,7 @@
     )
   )
 
-  (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "usb-rs485:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 96067f30-8a29-40d7-8884-6d36442de39e)
     (at 146.26825 99.475)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1252,7 +1252,7 @@
     )
   )
 
-  (footprint "robot-cortex:D_SOD-923" (layer "F.Cu")
+  (footprint "usb-rs485:D_SOD-923" (layer "F.Cu")
     (tstamp 9742587a-951e-4f3f-bf3f-8d4e9186eb06)
     (at 142.32575 99.455)
     (descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
@@ -1337,7 +1337,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp a03cd813-b106-43d1-a09e-5edc043cb2ef)
     (at 140.22 103.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1450,7 +1450,7 @@
     )
   )
 
-  (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "usb-rs485:C_0603_1608Metric" (layer "F.Cu")
     (tstamp a4d46622-f1ce-4dd1-97eb-9bece4114bbe)
     (at 138.84175 102.18 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1509,7 +1509,7 @@
     )
   )
 
-  (footprint "robot-cortex:D_SOD-923" (layer "F.Cu")
+  (footprint "usb-rs485:D_SOD-923" (layer "F.Cu")
     (tstamp d4095feb-e294-4bf7-b167-6c61f6083ec7)
     (at 146.66825 100.5 180)
     (descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
@@ -1594,7 +1594,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp def1b034-1677-4ffb-88f3-431792a23138)
     (at 140.05825 108.26 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1653,7 +1653,7 @@
     )
   )
 
-  (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "usb-rs485:R_0402_1005Metric" (layer "F.Cu")
     (tstamp dfa1cf2e-4383-47ff-82f0-463f45d01da0)
     (at 146.16825 107.32 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1766,7 +1766,7 @@
     )
   )
 
-  (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "usb-rs485:C_0603_1608Metric" (layer "F.Cu")
     (tstamp efea0d9b-a201-4f2f-aa96-2c5526634452)
     (at 139.64 101.08 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1826,7 +1826,7 @@
     )
   )
 
-  (footprint "robot-cortex:ThruHoleBreadboardX4" (layer "F.Cu")
+  (footprint "usb-rs485:ThruHoleBreadboardX4" (layer "F.Cu")
     (tstamp f8eebbc9-a0c9-4233-bc9a-284a6ee3e917)
     (at 136.91825 107.99 90)
     (property "Sheetfile" "usb-rs485.kicad_sch")
@@ -1874,19 +1874,19 @@
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp ee7fb348-5f20-4261-89bf-7724e952b478))
   (gr_line (start 135.91825 92.24) (end 135.91825 114.44)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 0f136db7-5a55-41f3-93cb-3c2926ba4898))
+  (gr_line (start 150.31825 92.24) (end 149.31825 91.24)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 25b0c584-a78c-47e9-a21e-f44e4000c6bf))
   (gr_line (start 136.91825 91.24) (end 135.91825 92.24)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 0f136db7-5a55-41f3-93cb-3c2926ba4898))
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 26b71a5e-1825-4f94-a512-40b247a9f031))
+  (gr_line (start 148.81825 115.94) (end 150.31825 114.44)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 8700042e-5302-4f9e-a70d-c6843c1ddf18))
   (gr_line (start 149.31825 91.24) (end 136.91825 91.24)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 8bcefd1e-522b-4fc4-9335-be0ae4f51b89))
   (gr_line (start 150.31825 114.44) (end 150.31825 92.24)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 99e28537-e6c3-4be4-841c-a01cecb91f92))
-  (gr_line (start 150.31825 92.24) (end 149.31825 91.24)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 99e28537-e6c3-4be4-841c-a01cecb91f92))
-  (gr_line (start 135.91825 114.44) (end 137.41825 115.94)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b5892dcb-e8f2-47a1-a3a5-12d9bc26f4f6))
   (gr_line (start 137.41825 115.94) (end 148.81825 115.94)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b5892dcb-e8f2-47a1-a3a5-12d9bc26f4f6))
-  (gr_line (start 148.81825 115.94) (end 150.31825 114.44)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp af4922a9-59e3-40e9-9941-f4d2d9370911))
+  (gr_line (start 135.91825 114.44) (end 137.41825 115.94)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b5892dcb-e8f2-47a1-a3a5-12d9bc26f4f6))
   (gr_text "B" (at 137.81825 107.17 -90) (layer "B.SilkS") (tstamp 05ae0f8c-9e6b-4c77-805c-1f448b989756)
     (effects (font (size 0.635 0.635) (thickness 0.127) bold) (justify left bottom mirror))
