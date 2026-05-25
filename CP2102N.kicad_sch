@@ -1635,7 +1635,7 @@
     (property "Footprint" "robot-cortex:QFN50P400X400X80-25N" (at 234.315 128.905 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "" (at 234.315 128.905 0)
+    (property "Datasheet" "datasheets/cp2102n-datasheet.pdf" (at 234.315 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SNAPEDA_PACKAGE_ID" "" (at 234.315 128.905 0)
