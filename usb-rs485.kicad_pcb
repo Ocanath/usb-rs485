@@ -1844,8 +1844,9 @@
     (at 136.91825 110.534 90)
     (property "Sheetfile" "usb-rs485.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (path "/db66a9b5-8a2c-4f4b-b1e6-b4e44ebe92c4")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J2" (at 0 -1.27 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 19e69433-7c3c-4044-b646-31173ba0e684)

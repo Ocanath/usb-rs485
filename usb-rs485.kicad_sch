@@ -767,7 +767,7 @@
   )
 
   (symbol (lib_id "usb-rs485:ThruHoleX5") (at 340.995 148.59 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db66a9b5-8a2c-4f4b-b1e6-b4e44ebe92c4)
     (property "Reference" "J2" (at 345.44 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
