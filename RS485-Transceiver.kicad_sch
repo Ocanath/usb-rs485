@@ -766,7 +766,7 @@
     (property "Footprint" "usb-rs485:THVD2410VDRCR" (at 125.095 176.835 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/thvd2410v" (at 125.095 276.835 0)
+    (property "Datasheet" "datasheets/thvd2410v.pdf" (at 125.095 276.835 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Height" "1" (at 125.095 476.835 0)
